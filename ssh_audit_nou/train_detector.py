@@ -37,7 +37,7 @@ with open(LOG_FILE, "r") as f:
                 linii_sarite += 1
 
 if linii_sarite > 0:
-    print(f"⚠️ Am sărit {linii_sarite} linii din log deoarece nu aveau exact 5 caracteristici numerice.")
+    print(f"Am sărit {linii_sarite} linii din log deoarece nu aveau exact 5 caracteristici numerice.")
 
 X = np.array(X_all, dtype=np.float64)
 y_true = np.array(y_all, dtype=np.int32)
